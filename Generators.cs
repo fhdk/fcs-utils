@@ -15,13 +15,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 
 namespace FCS.Lib
 {
     /// <summary>
-    /// Class StringUtils.
+    /// Class Generators
+    /// <remarks>generates varioous kinds of random strings. </remarks>
     /// </summary>
     public static class Generators
     {
@@ -37,6 +37,7 @@ namespace FCS.Lib
         /// <summary>
         /// Randoms the string.
         /// </summary>
+        /// <remarks>derived from https://sourceforge.net/projects/shorturl-dotnet/ </remarks>
         /// <param name="length">The lengt  h.</param>
         /// <returns>System.String.</returns>
         public static string ShortUrlGenerator(int length)
@@ -269,6 +270,7 @@ namespace FCS.Lib
         /// <summary>
         /// Randoms the seed.
         /// </summary>
+        /// <remarks>derived from https://sourceforge.net/projects/shorturl-dotnet/ </remarks>
         /// <returns>Random.</returns>
         public static Random RandomSeed()
         {

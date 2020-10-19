@@ -6,7 +6,7 @@
 // Last Modified By : FH
 // Last Modified On : 2020-08-30
 // ***********************************************************************
-// <copyright file="PasswordOptions.cs" company="Frede Hundewadt">
+// <copyright file="StringOptions.cs" company="Frede Hundewadt">
 //     Copyright © FCS 2015-2020
 // </copyright>
 // <summary></summary>
@@ -14,7 +14,7 @@
 namespace FCS.Lib
 {
     /// <summary>
-    /// Class PasswordOptions.
+    /// Class StringOptions.
     /// </summary>
     public class StringOptions
     {

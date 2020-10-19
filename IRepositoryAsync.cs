@@ -20,7 +20,7 @@ using System.Threading.Tasks;
 namespace FCS.Lib
 {
     /// <summary>
-    /// Interface IRepositoryEx
+    /// Interface IRepositoryAsyncEx
     /// </summary>
     /// <typeparam name="TEntity">The type of the t entity</typeparam>
     public interface IRepositoryAsync<TEntity> where TEntity : class

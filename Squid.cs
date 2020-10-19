@@ -20,7 +20,8 @@ namespace FCS.Lib
     /// <summary>
     /// A wrapper for handling URL-safe Base64 encoded globally unique identifiers (GUID).
     /// </summary>
-    /// <remarks>Special characters are replaced (/, +) or removed (==).</remarks>
+    /// <remarks>Special characters are replaced (/, +) or removed (==).
+    /// Derived from https:github.com/csharpvitamins/CSharpVitamins.ShortGuid</remarks>
     [DebuggerDisplay("{" + nameof(Value) + "}")]
     public readonly struct Squid : IEquatable<Squid>
     {
